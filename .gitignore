@@ -1,0 +1,11 @@
+# Ignore node_modules and build artifacts
+node_modules/
+dist/
+*.log
+
+# Ignore environment files
+.env
+
+# Don’t ignore client or server directories
+!client/
+!server/
